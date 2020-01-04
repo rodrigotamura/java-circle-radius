@@ -24,7 +24,8 @@ public class App {
         Scanner sc = new Scanner(System.in);
         double n = sc.nextDouble(); // converting typed number into double
         c.setRadius(n);
-        System.out.printf("%6.2f\n", c.area()); // formating to double(6,2)
+        //System.out.printf("%6.2f\n", c.area()); // formating to double(6,2)
+        System.out.println(c.area());
       	sc.close();
     }
 
